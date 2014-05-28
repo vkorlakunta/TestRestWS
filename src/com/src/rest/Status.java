@@ -8,7 +8,7 @@ import javax.ws.rs.core.Response;
 
 import com.src.dao.TestDAO;
 
-@Path("/v1/status/")
+@Path("/v1/status")
 public class Status {
 	
 	public  static final String api_version = "00.1.0";
@@ -39,7 +39,7 @@ public class Status {
 	
 	@Path("/getBooks")
 	@GET
-	@Produces(MediaType.TEXT_HTML)
+	@Produces(MediaType.APPLICATION_JSON)
 	public Response getBooks() {
 		Response response = null;
 		response = Response.ok(dao.getBookList()).build();
