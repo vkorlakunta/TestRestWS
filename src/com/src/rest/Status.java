@@ -23,5 +23,4 @@ public class Status {
 	public String getVersion() {
 		return "</p> Version is :: </p>" + api_version;
 	}
-
 }
