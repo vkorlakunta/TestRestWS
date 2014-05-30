@@ -14,7 +14,6 @@ public class TestDAO {
 
 	public String getDate() {
 		Date date = new Date();
-		
 		return date.toString();
 	}
 	
