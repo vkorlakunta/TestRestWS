@@ -27,7 +27,6 @@ public class TestDAO {
 		booksList.add(new Book("8", "Test4", "Cat4 <script>alert(\"You are Hakked \")</script>"));
 		
 		String returnString = toJSON(booksList);
-		
 		return returnString;
 	}
 	
